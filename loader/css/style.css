@@ -1,0 +1,62 @@
+.loader{
+    border: solid slategrey 3px;
+    width: 300px;
+    height: 30px;
+    pad: 10px;
+}
+.loader-inside{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    animation-name: loading;
+    animation-delay: 0.5s;
+    animation-duration: 6s;
+    transform-origin: left center
+}
+
+
+@keyframes loading{
+  
+    0%{
+      transform: scaleX(0) ;
+    }
+    
+    20%{
+      transform: scaleX(0.1) ;
+      
+    }
+    
+    30%{
+      transform: scaleX(0.25);
+      
+    }
+    
+    40%{
+      transform: scaleX(0.45);
+      
+    }
+    
+    
+    60%{
+      transform: scaleX(0.5);
+      
+    }
+    
+    65%{
+      transform: scaleX(0.6);
+      
+    }
+    
+    70%{
+      transform: scaleX(0.75);
+    }
+    
+    90%{
+      transform: scaleX(0.8);
+    }
+    
+    100%{
+      transform: scaleX(1);
+    }
+    
+  }
