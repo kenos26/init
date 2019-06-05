@@ -1,0 +1,23 @@
+html{
+    background-color: #f3edd3;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.box::before{
+    border-top: 5px;
+}
+.box label{
+    color: #0f948a;
+}
+.box input{
+    border-radius: 6px;
+}
+body h1{
+    color: #0b3e59;
+}
+button{
+    border-radius: 5px;
+}

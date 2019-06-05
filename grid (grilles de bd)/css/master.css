@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+.object-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.object-item{
+    border: 3px solid black;
+    width: 20vw;/*vw est unité de*/
+    height: 20vw;/*taille responsive*/
+    overflow: hidden;
+}
+.object-fit{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.object-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: center sert a centrer l'image*/
+}
+.super-vh{
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.super-vh1{
+    background-color: olivedrab;
+}
+.super-vh2{
+    background-color: steelblue;
+}
+.super-vh3{
+    background-color: crimson;
+}
+
+h2{
+    transform: translate(x -50 y -50)
+}
+
+.grid-container-2 {
+    height: 500px;
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  .grid-container-2 .grid-item {
+    position: relative;
+    display: grid;
+    object-position: center;
+  }
+  .grid-container-2 h4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    margin: 0;
+  }
+  .grid-container-2 .grid-item-a {
+    background-color: #fac901;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+  }
+  .grid-container-2 .grid-item-b {
+    background-color: #225095;
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 2;
+  }
+  .grid-container-2 img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+  .grid-container-2 .grid-item-c {
+    background-color: #dd0100 ;
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+  }
+  .grid-container-2 .grid-item-d {
+    background-color: #fff;
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+  }
