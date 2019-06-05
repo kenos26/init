@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.slides li{
+    width: 30px;
+    height: 30px;
+}
+.menu{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+}
+.menu-nav{
+    display: flex;
+}
+.menu-nav li{
+    display: flex
+}
+.main-div{
+    display: flex;
+    float: left;
+}
+.espace-membre{
+    display: flex;
+    
+}

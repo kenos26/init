@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <title>Frenchtoons: Partagez votre talent</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="./js/jquery.flexslider.js"></script>
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider();
+    });
+  </script>
+</head>
+<body>
+    <header class="main-header">
+        <nav  class="main-nav">
+            <div class="main-div">
+                <a href=""><li>Nouveautés</li></a>
+                <a href=""><li>Genre</li></a>
+                <a href=""><li>Populaire</li></a>
+                <a href=""><li>Random</li></a>
+            </div>
+            <div class="espace-membre" id="membre">
+                <a href=""><li>Connexion</li></a>
+                <a href=""><li>Inscription</li></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="featured">
+            <h1>Nouveautés</h1>
+        </div>
+        <div class="genre">
+            <h1>Genre</h1>
+        </div>
+        <div>
+            <h1>Populaire</h1>
+        </div>
+        <section>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/amelie.jpg" />
+                    </li>
+                    <li>
+                        <img src="img/xavier.jpg" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
