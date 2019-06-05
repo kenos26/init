@@ -1,0 +1,21 @@
+body{
+  background-image: url(../img/bg.jpg);
+}
+
+img{
+  max-width: 100%;
+}
+
+nav{
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  /* justify-content: flex-end; */
+  flex-direction: column;
+  padding: 0;
+}
+
+nav a{
+  padding: 10px;
+  border-radius: 15px;
+}
