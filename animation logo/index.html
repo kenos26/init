@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/flexslider.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="./js/jquery.flexslider.js"></script>
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider();
+    });
+  </script>
+  <title>Cup of Tea</title>
+</head>
+<body>
+  <header class="main-header">
+    <p class="delivery">Livraison offerte à partir de 65€ d'achat !</p>
+    <img src="./img/ribbon.svg" class="ribbon" alt="Élu meilleur thé">
+    <div class="header-t">
+      <a href="index.html"><img src="./img/logo.png" class="logo" alt="Logo Cup of Tea"></a>
+      <div class="cart" id="cart">
+        <span>Mon panier</span> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>42,00 €</span>
+      </div>
+    </div>
+    <nav class="main-nav container">
+      <ul>
+        <li><a href="listing.html" class="nav-tea">Thés</a></li>
+        <li><a href="#" class="nav-gc">Grands crus</a></li>
+        <li><a href="#" class="nav-acc">Accessoires</a></li>
+        <li><a href="#" class="nav-epi">Epicerie</a></li>
+        <li><a href="about.html" class="nav-about">Notre Histoire</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="christmas">
+      <h1>C'est noël, profitez-en !</h1>
+      <img src="./img/offre-noel.jpg" alt="Offre de Noël">
+      <p>Pour toute commande effectuée avant le 20 décembre</p>
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="./img/slider/1.jpg" alt="La boutique de Noël">
+          </li>
+          <li>
+            <img src="./img/slider/2.jpg" alt="Les thés n°25">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="tea container">
+      <h2>Choisissez votre thé</h2>
+      <ul>
+        <li><a href="#"><img src="./img/tea/1.jpg" alt="Thé noir">Thé noir</a></li>
+        <li><a href="#"><img src="./img/tea/2.jpg" alt="Thé vert">Thé vert</a></li>
+        <li><a href="#"><img src="./img/tea/3.jpg" alt="Oolong">Oolong</a></li>
+        <li><a href="#"><img src="./img/tea/4.jpg" alt="Thé blanc">Thé blanc</a></li>
+        <li><a href="#"><img src="./img/tea/5.jpg" alt="Rooibos">Rooibos</a></li>
+      </ul>
+    </section>
+    <section class="featured container">
+      <article class="product-article">
+        <h2>Notre nouveauté</h2>
+        <img src="./img/product/product1.jpg" alt="Thé du Hammam">
+        <h3>Thé du Hammam</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tempore iure distinctio natus architecto totam aspernatur nobis maiores, dolorum consequuntur, illo sequi veritatis officiis qui nam libero ad incidunt quam.</p>
+        <div class="product-article-div">
+        <p>À partir de <span class="price">8,50 €</span></p>
+        <a href="#" class="btn">Voir ce produit</a>
+      </div>
+      </article>
+      <article class="product-article">
+        <h2>Notre best-seller</h2>
+        <img src="./img/product/product2.jpg" alt="Infusion Herboriste">
+        <h3>Infusion Herboriste</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tempore iure distinctio natus architecto totam aspernatur nobis maiores, dolorum consequuntur, illo sequi veritatis officiis qui nam libero ad incidu Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate eum nostrum voluptates molestiae cum. Provident officiis beatae impedit, expedita fugit modi numquam placeat aut ullam perspiciatis aspernatur laudantium iure! nt quam.</p>
+        <div class="product-article-div">
+        <p>À partir de <span class="price">7,60 €</span></p>
+        <a href="#" class="btn">Voir ce produit</a>
+      </div>
+      </article>
+      <article class="product-article">
+        <h2>Notre coup de coeur</h2>
+        <img src="./img/product/product3.jpg" alt="Blue of London">
+        <h3>Blue of London</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem at impedit esse animi aut quam repellat, sit eius, placeat aperiam, incidunt nesciunt sed dignissimos dolorem minima doloribus odit nisi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tempore iure distinctio natus architecto totam aspernatur nobis maiores, dolorum consequuntur, illo sequi veritatis officiis qui nam libero ad incidunt quam.</p>
+        <div class="product-article-div">
+        <p>À partir de <span class="price">9,00 €</span></p>
+        <a href="product.html" class="btn">Voir ce produit</a>
+      </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+      <section class="badges">
+        <div class="container">
+          <ul>
+            <li><i class="fa fa-lock" aria-hidden="true"></i>Paiement sécurisé</li>
+            <li><i class="fa fa-truck" aria-hidden="true"></i>Ma livraison offerte</li>
+            <li><i class="fa fa-money" aria-hidden="true"></i>Carte de fidélité</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Service client</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i>Garantie qualité</li>
+          </ul>
+        </div>
+      </section>
+    <section class="footer-nav">
+      <div class="container">
+        <section>
+          <h4>Cup of Tea</h4>
+          <ul>
+            <li><a href="#">Notre histoire</a></li>
+            <li><a href="#">Les boutiques</a></li>
+            <li><a href="#">Le Thé de A à Z</a></li>
+            <li><a href="#">Espace clients professionnels</a></li>
+            <li><a href="#">Recrutement</a></li>
+            <li><a href="#">Contactez-nous !</a></li>
+            <li><a href="#">L'École du Thé</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4>Commandez en ligne</h4>
+          <ul>
+            <li><a href="#">Première visite</a></li>
+            <li><a href="#">Aide - FAQ</a></li>
+            <li><a href="#">Service client</a></li>
+            <li><a href="#">Suivre ma commande</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Informations légales</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4>Suivez-nous !</h4>
+          <ul>
+            <li><a href="#">Notre histoire</a></li>
+            <li><a href="#">Les boutiques</a></li>
+            <li><a href="#">Le Thé de A à Z</a></li>
+            <li><a href="#">Espace clients professionnels</a></li>
+          </ul>
+        </section>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="container">
+        <img src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" alt="3W Academy">
+        <p>Cet exercice de <a href="https://3wa.fr/">3W Academy</a> est mis à disposition <a href="#">pour l'usage personnel des étudiants. Pas de Rediffusion - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr">contact@3wa.fr</a>.<br>Les maquettes ont été réalisées par <a href="#">Justine Muller</a>.</p>
+      </div>
+    </section>
+  </footer>
+  <section id="check-out" class="pop-up">
+      <button id="close-button">X</button>
+      <h2>Votre panier</h2>
+    </section>
+    <script src="js/cupoftea.js"></script>
+</body>
+</html>
